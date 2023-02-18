@@ -1,0 +1,146 @@
+body {
+    font-family: Verdana;
+    font-size: 13px;
+    color: #333;
+    background: ##F5F5F5;
+    }
+.hr-dotted {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dotted #483D8B;
+    }
+
+select {
+    width: 30%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+h1 {
+    text-align: center;
+    margin: 40px;
+    }
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px;
+}
+#p1{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color:#483D8B;
+}
+
+#p2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color:#483D8B;
+}
+
+#p3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color:#483D8B;
+}
+
+#p4{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color:#483D8B;
+}
+
+#p5{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color:#483D8B;
+}
+
+.center{
+    text-align: center;
+    }
+.list {
+    color: #4B0082;
+    }
+
+a:hover{
+    border: 1px solid;
+    background: #E6E6FA;
+    }
+
+.button {
+       background-color: #9370DB;
+       border: none;
+       border-radius: 4px;
+       color: white;
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 20px
+    }
+.button:hover {
+        background-color: #6A5ACD;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+        color: white;
+        }
+.text {
+    border: 2px solid #6A5ACD;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box
+    }
+
+table{
+    width: 100%;
+    }
+
+th {
+    height: 40px;
+    padding: 15px;
+    background-color: #E6E6FA;
+    color: ##F5F5F5;
+    font-size: 20px;
+    }
+
+td {
+    padding: 20px;
+    height: 20px;
+    vertical-align: center
+    }
+td {
+    font-size: 40px;
+    text-align: center
+    }
+
+#grass {
+    font-size: 50px;
+    color: #008000;
+    }
+
+#fire {
+    font-size: 50px;
+    color: #FF4500;
+    }
+
+#water{
+    font-size: 50px;
+    color: #4682B4;
+    }
+
+#electric{
+    font-size: 50px;
+    color: #FFFF00;
+    }
+
+

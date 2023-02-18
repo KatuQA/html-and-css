@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Вторая страница</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+    <body>
+<h1>Форма обратной связи</h1>
+<form action="handler.php" method="post">
+    <div>
+        <p id="p1"><label for="name">Представьтесь, пожалуйста</label><p>
+        <p><input class="text" type="text" id="name" name="name"/><p>
+    </div>
+    <div>
+        <p id="p5">Знаетели вы кто такие покемоны?</p>
+        <p><input type="radio" name="answer" value="1">Впервые слышу<Br><input type="radio" name="answer" value="2">Что-то на молодежном<Br><input checked type="radio" name="answer" value="3">Gotta catch em all!</p>
+    </div>
+    <div>
+        <p><b>Хотели бы вы узнать о покемонах больше?</b></p>
+        <p><textarea  class="text" rows="10" cols="45" name="text"></textarea></p>
+    </div>
+    <div>
+        <p id="p2">Вам понравились какие-нибудь покемоны? Выберите одного или нескольких:</p>
+        <p><input type="checkbox" name="1" value="Пикачу"> Пикачу
+        <input type="checkbox" name="2" value="Райчу"> Райчу</p>
+        <p><input type="checkbox" name="3" value="Сквиртл"> Бульбазавр
+        <input type="checkbox" name="4" value="Вартортл"> Вартортл
+        <input type="checkbox" name="5" value="Бластойз"> Бластойз</p>
+        <p><input type="checkbox" name="6" value="Чармандер"> Чармандер
+        <input type="checkbox" name="7" value="Чаризард"> Чаризард
+        <input type="checkbox" name="8" value="Чармелион"> Чармелион</p>
+        <p><input type="checkbox" name="9" value="Бульбазавр"> Бульбазавр
+        <input type="checkbox" name="10" value="Ивизавр"> Ивизавр
+        <input type="checkbox" name="11" value="Венузавр"> Венузавр</p>
+    </div>
+    <div>
+    <p id="p3">Про какого покемона хотели бы еще узнать? Выберите одного или нескольких:</p>
+    <p><select size="3" multiple  name="MorePokemons">
+        <option value="Иви">Иви</option>
+        <option selected value="Псайдак">Псайдак</option>
+        <option value="Джинглипуф">Джинглипуф</option>
+        <option value="Мьюту">Мьюту</option>
+        <option value="Мяус">Мяус</option>
+    </select></p>
+        </div>
+    <div>
+        <p id="p4">Считаете ли ты, что покемоны милые?</p>
+        <p><select  name="likePokemons">
+            <option selected value="Определенно">Определенно</option>
+            <option value="Сомневаюсь">Сомневаюсь</option>
+            <option value="Думаю">Мне нужно еще подумать</option>
+            <option value="Нет">Нет</option>
+            </select></p></div>
+    <hr class="hr-dotted"/>
+    <div>
+        <p><input type="submit" class="button" value="Отправить ответы"></p></div>
+   </form>
+<hr class="hr-dotted"/>
+<div>
+        <form action="https://www.pokemon.com/ru/" method="get" target="_blank">
+        <button class="button" type="submit">Узнать обо всех покемонах сразу можно ТУТ</button>
+    </form>
+</div>
+<hr class="hr-dotted" />
+<div>
+    <a href="homework_page1.html">Вернуться на прошлую страницу</a>
+    <hr class="hr-dotted" />
+</div>
+</body>
+   </html>
+
