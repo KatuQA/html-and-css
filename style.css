@@ -4,6 +4,7 @@ body {
     color: #333;
     background: ##F5F5F5;
     }
+
 .hr-dotted {
 	margin: 20px 0;
 	padding: 0;
@@ -18,7 +19,8 @@ select {
     border: none;
     border-radius: 4px;
     background-color: #f1f1f1;
-}
+    }
+
 h1 {
     text-align: center;
     margin: 40px;
@@ -28,27 +30,28 @@ p {
     font-size: 15px;
     font-weight: 500;
     margin: 20px;
-}
+    }
+
 #p1{
     font-size: 20px;
     font-weight: 600;
     margin: 20px;
     color:#483D8B;
-}
+    }
 
 #p2{
     font-size: 20px;
     font-weight: 600;
     margin: 20px;
     color:#483D8B;
-}
+    }
 
 #p3{
     font-size: 20px;
     font-weight: 600;
     margin: 20px;
     color:#483D8B;
-}
+    }
 
 #p4{
     font-size: 20px;
@@ -61,12 +64,20 @@ p {
     font-size: 20px;
     font-weight: 600;
     margin: 20px;
-    color:#483D8B;
-}
+    color: #483D8B;
+    }
+
+#p7{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color: #483D8B;
+   }
 
 .center{
     text-align: center;
     }
+
 .list {
     color: #4B0082;
     }
@@ -88,11 +99,13 @@ a:hover{
        font-size: 16px;
        margin: 20px
     }
+
 .button:hover {
         background-color: #6A5ACD;
         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
         color: white;
         }
+
 .text {
     border: 2px solid #6A5ACD;
     width: 30%;
@@ -118,6 +131,7 @@ td {
     height: 20px;
     vertical-align: center
     }
+
 td {
     font-size: 40px;
     text-align: center
@@ -142,5 +156,3 @@ td {
     font-size: 50px;
     color: #FFFF00;
     }
-
-
